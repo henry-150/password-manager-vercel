@@ -10,10 +10,12 @@ const Navbar = () => {
           <span className='text-green-500'>OP/&gt;</span>
         </div>
         <div className="">
-          <button className='text-xl font-bold flex gap-3 bg-green-700 p-2 rounded-full text-green-100 '>
-            <img className=' ' width={26} height={20} src="./github.svg" alt="github svg" />
-            GitHub
-          </button>
+          <a href="https://github.com/henry-150/password-manager-vercel">
+            <button className='text-xl font-bold flex gap-3 bg-green-700 p-2 rounded-full text-green-100 '>
+              <img className=' ' width={26} height={20} src="./github.svg" alt="github svg" />
+              GitHub
+            </button>
+          </a>
         </div>
       </nav>
     </>
